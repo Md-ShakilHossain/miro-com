@@ -13,20 +13,20 @@ const Navbar = () => {
             <p>Resources</p>
             <select />
         </li>
-        <li><a>Enterprise</a></li>
-        <li><a>Pricing</a></li>
+        <li><a className="font-Inter">Enterprise</a></li>
+        <li><a className="font-Inter">Pricing</a></li>
     </>
 
     const navLink1 = <>
         <li className="flex gap-2">
-            <img src="/public/lang.png" alt="" className="w-6 h-6" />
+            <img src="https://i.ibb.co/XjW7G8m/lang.png" alt="" className="w-6 h-6" />
             <p>EN</p>
         </li>
         <li>
-            <p>Contact Sales</p>
+            <p className="font-Inter">Contact Sales</p>
         </li>
         <li>
-            <p>Login</p>
+            <p className="font-Inter">Login</p>
         </li>
     </>
     return (
@@ -43,7 +43,7 @@ const Navbar = () => {
 
                 <div className="flex items-end gap-6">
                     <div>
-                        <img src="/public/miro.png" alt="Miro" className="h-4 md:h-8 w-12 md:w-24" />
+                        <img src="https://i.ibb.co/3RTrN4C/miro.png" alt="Miro" className="h-4 md:h-8 w-12 md:w-24" />
                     </div>
 
                     <div className="hidden lg:block">
