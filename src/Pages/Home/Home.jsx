@@ -1,5 +1,6 @@
 import ConnectTools from "../../Components/ConnectTools/ConnectTools";
 import KindsOfTeams from "../../Components/KindsOfTeams/KindsOfTeams";
+import LovedByTeams from "../../Components/LovedByTeams/LovedByTeams";
 import Navbar from "../../Components/Navbar/Navbar";
 import TakeIdea from "../../Components/TakeIdea/TakeIdea";
 import TrustedUsers from "../../Components/TrustedUsers/TrustedUsers";
@@ -21,6 +22,7 @@ const Home = () => {
             <WaysWeWork />
             <WayYouWork />
             <KindsOfTeams />
+            <LovedByTeams />
         </div>
     );
 };
