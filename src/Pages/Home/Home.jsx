@@ -1,4 +1,5 @@
 import ConnectTools from "../../Components/ConnectTools/ConnectTools";
+import KindsOfTeams from "../../Components/KindsOfTeams/KindsOfTeams";
 import Navbar from "../../Components/Navbar/Navbar";
 import TakeIdea from "../../Components/TakeIdea/TakeIdea";
 import TrustedUsers from "../../Components/TrustedUsers/TrustedUsers";
@@ -19,6 +20,7 @@ const Home = () => {
             <ConnectTools />
             <WaysWeWork />
             <WayYouWork />
+            <KindsOfTeams />
         </div>
     );
 };
