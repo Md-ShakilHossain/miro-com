@@ -1,4 +1,5 @@
 import ConnectTools from "../../Components/ConnectTools/ConnectTools";
+import Footer from "../../Components/Footer/Footer";
 import KindsOfTeams from "../../Components/KindsOfTeams/KindsOfTeams";
 import LovedByTeams from "../../Components/LovedByTeams/LovedByTeams";
 import Navbar from "../../Components/Navbar/Navbar";
@@ -23,6 +24,7 @@ const Home = () => {
             <WayYouWork />
             <KindsOfTeams />
             <LovedByTeams />
+            <Footer />
         </div>
     );
 };
