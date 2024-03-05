@@ -44,13 +44,13 @@ const Footer = () => {
                             <p className="font-Inter text-[#FFC247] text-[19px] font-extrabold">Insights</p>
                         </div>
                     </div>
-                    <div className="w-full md:w-[520px] lg:w-[520px] h-[250px] bg-[#FFC247] rounded-[42px] relative">
+                    <div className="w-full md:w-[520px] lg:w-[520px] h-[250px] md:h-[232.39px] bg-[#FFC247] rounded-[42px] relative">
                         <img src="https://i.ibb.co/YPJ3PHb/Path-10741.png" alt="" className="mx-auto" />
                         <div className="absolute w-full md:w-[364px] lg:w-[364px] top-6 md:top-[35px] md:left-9 lg:left-9">
                             <h1 className="font-Inter text-[#02033B] font-medium md:font-extrabold md:text-[23px]">Sign up for our newsletter</h1>
                             <p className="font-Inter text-[15px] text-[#02033B] mt-3 md:mt-[21px]">Receive the latest mobile security news, exclusive discounts & offers straight to your inbox!</p>
-                            <input type="text" className="text-[#02033B80] py-2 pl-4 rounded-3xl md:rounded-l-[21px] mt-4 md:mt-9 w-full md:w-[254.8px] lg:w-[254.8px] h-[34.39px]" placeholder="Email address" />
-                            <button className="font-Inter font-extrabold text-white text-[15px] bg-[#02033B] py-2 w-full md:w-[109.19px] lg:w-[109.19px] h-[34.39px] text-center rounded-3xl md:rounded-r-[21px] mt-2 md:mt-0">Submit</button>
+                            <input type="text" className="text-[#02033B80] py-2 pl-4 rounded-3xl md:rounded-none md:rounded-l-[21px] mt-4 md:mt-9 w-full md:w-[254.8px] lg:w-[254.8px] h-[34.39px]" placeholder="Email address" />
+                            <button className="font-Inter font-extrabold text-white text-[15px] bg-[#02033B] py-2 w-full md:w-[109.19px] lg:w-[109.19px] h-[34.39px] text-center rounded-3xl md:rounded-none md:rounded-r-[21px] mt-2 md:mt-0">Submit</button>
                         </div>
                     </div>
 
