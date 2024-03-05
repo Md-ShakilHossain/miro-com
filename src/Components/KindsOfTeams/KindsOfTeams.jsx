@@ -2,10 +2,10 @@
 const KindsOfTeams = () => {
     return (
         <div className="my-28 w-4/5 mx-auto">
-            <h1 className="font-Inter font-bold text-5xl">Built for all kinds of teams</h1>
+            <h1 className="font-Inter font-medium md:font-bold text-2xl md:text-3xl lg:text-5xl">Built for all kinds of teams</h1>
 
             <div className="mt-8">
-                <ul className="flex justify-start items-center gap-2 text-sm">
+                <ul className="grid grid-cols-3 md:flex md:justify-start md:items-center md:gap-2 text-sm">
                     <li className="p-4">UX & Design</li>
                     <li className="p-4">Marketing</li>
                     <li className="p-4">Product Management</li>
@@ -15,8 +15,8 @@ const KindsOfTeams = () => {
                     <li className="p-4">Sales</li>
                 </ul>
             </div>
-            <div className="flex">
-                <div className="w-[360px] pl-4 pt-8 pr-10">
+            <div className="flex flex-col-reverse lg:flex-row">
+                <div className="w-72 md:w-[500px] lg:w-[360px] pl-4 pt-8 pr-10">
                     <div className="flex gap-4 items-center">
                         <img src="https://i.ibb.co/QpL5Bzk/right-Sign.png" alt="" />
                         <p className="text-lg">Build low-fi wireframes</p>
